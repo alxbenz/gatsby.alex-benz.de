@@ -1,0 +1,474 @@
+{
+    "profile": [
+        "Hi, my name is Alex Benz, and I have been working as a freelance frontend developer since January 2019.",
+        "My main focus is on developing responsive websites and applications using HTML5, CSS3, and TypeScript. I also have a preference for working with JS-Frameworks like ReactJS and VueJS.",
+        "With over 10 years of experience in the web industry, I have previously worked for a leading German e-commerce company as well as one of the largest digital agencies in Germany.",
+        "Availability and hourly rate can be provided upon request.",
+        "I primarily work remotely, but I am open to part-time on-site presence in the Freiburg or Karlsruhe areas. If necessary, I am available for on-site meetings to kickstart a project."
+    ],
+    "intro": {
+        "h2": "Hi, ich bin <br/><span>Alex Benz!</span>",
+        "p": [
+            "Ich bin leidenschaftlicher Frontend Entwickler. Ich spezialisiere mich auf HTML, CSS und TypeScript, um ansprechende Benutzeroberflächen zu erstellen. Als freiberuflicher Entwickler biete ich meine Dienste Agenturen, Unternehmen und Privatpersonen an. Lass uns zusammenarbeiten und gemeinsam etwas Großartiges erschaffen."
+        ]
+    },
+    "sections": [
+        {
+            "id": "skills",
+            "h2": "Frontend <span>rocks</span>!",
+            "sub": "I enjoy what I do. I love learning new things.",
+            "p": [
+                "I provide professional frontend development services that adhere to the latest standards and utilize a cutting-edge technology stack. My expertise includes designing and developing distinctive websites, crafting interactive applications, and actively participating in the realization of your unique project.",
+                "Drawing upon more than 10 years of experience as a frontend and web developer, I bring a wealth of expertise across a diverse range of technologies. My areas of specialization are outlined below, and for a comprehensive profile, please feel free to request it."
+            ]
+        },
+        {
+            "id": "contact",
+            "h2": "Reach Out and <span>Connect</span>!",
+            "sub": "Let's connect and discuss your project.",
+            "p": [
+                "If you have a project in mind or any questions, feel free to reach out to me. I'm always excited to collaborate and create something amazing together.",
+                "You can contact me through the following methods:"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "category": "Development",
+            "label": "HTML 5",
+            "period": "10 years",
+            "level": "expert",
+            "percentage": 90,
+            "top": true
+        },
+        {
+            "category": "Development",
+            "label": "CSS and pre/post processors",
+            "period": "10 years",
+            "level": "expert",
+            "percentage": 95,
+            "top": true
+        },
+        {
+            "category": "Development",
+            "label": "JavaScript",
+            "period": "10 years",
+            "level": "expert",
+            "percentage": 90,
+            "top": true
+        },
+        {
+            "category": "Development",
+            "label": "ReactJS",
+            "period": "5 years",
+            "level": "experienced",
+            "percentage": 75,
+            "top": true
+        },
+        {
+            "category": "Development",
+            "label": "Redux",
+            "period": "3 years",
+            "level": "advanced",
+            "percentage": 50
+        },
+        {
+            "category": "Development",
+            "label": "VueJs",
+            "period": "4 years",
+            "level": "advanced",
+            "percentage": 50,
+            "top": true
+        },
+        {
+            "category": "Development",
+            "label": "TypeScript",
+            "period": "5 years",
+            "level": "experienced",
+            "percentage": 60,
+            "top": true
+        },
+        {
+            "category": "Development",
+            "label": "NodeJs",
+            "period": "2 years",
+            "level": "advanced",
+            "percentage": 40
+        },
+        {
+            "category": "Development",
+            "label": "Templating - Handlebars, JSP, twig, ...",
+            "period": "3 years",
+            "level": "experienced",
+            "percentage": 70
+        },
+        {
+            "category": "Development",
+            "label": "JQuery",
+            "period": "7 years",
+            "level": "expert",
+            "percentage": 80
+        },
+        {
+            "category": "Development",
+            "label": "PHP",
+            "period": "3 years",
+            "level": "beginner",
+            "percentage": 25
+        },
+        {
+            "category": "Development",
+            "label": "MySQL",
+            "period": "3 years",
+            "level": "beginner",
+            "percentage": 25
+        },
+        {
+            "category": "DevOps",
+            "label": "server systems",
+            "period": "5 years",
+            "level": "advanced",
+            "percentage": 50
+        },
+        {
+            "category": "DevOps",
+            "label": "continuous integration using JenkinsCI",
+            "period": "7 years",
+            "level": "advanced",
+            "percentage": 50
+        },
+        {
+            "category": "DevOps",
+            "label": "build pipelines (GULP, webpack)",
+            "period": "7 years",
+            "level": "advanced",
+            "percentage": 50
+        },
+        {
+            "category": "DevOps",
+            "label": "Docker",
+            "period": "2 years",
+            "level": "beginner",
+            "percentage": 25
+        },
+        {
+            "category": "DevOps",
+            "label": "AWS Amplify",
+            "period": "1 years",
+            "level": "beginner",
+            "percentage": 20
+        },
+        {
+            "category": "DevOps",
+            "label": "Version-control tools - GIT, SVN",
+            "period": "10 years",
+            "level": "expert",
+            "percentage": 80
+        },
+        {
+            "category": "Software & Tools",
+            "label": "Image editing - Adobe Photoshop"
+        },
+        {
+            "category": "Software & Tools",
+            "label": "Web design - Figma, Adobe XD, sketch, zeplin"
+        },
+        {
+            "category": "Software & Tools",
+            "label": "Visual Studio Code"
+        },
+        {
+            "category": "Software & Tools",
+            "label": "JetBeans Webstorm"
+        },
+        {
+            "category": "Software & Tools",
+            "label": "Attlassian Suite (JIRA, Confluence, BitBucket)"
+        },
+        {
+            "category": "Software & Tools",
+            "label": "Github"
+        },
+        {
+            "category": "Languages",
+            "label": "German (native)"
+        },
+        {
+            "category": "Languages",
+            "label": "English (fluent, spoken and written)"
+        }
+    ],
+    "projects": [
+        {
+            "start": "11/2022",
+            "end": "ongoing",
+            "position": "Frontend Developer, ReactJS",
+            "company": "mdeg digital GmbH",
+            "location": "Freiburg",
+            "description": "Developing a web application for the medical early detection of pregnancy complications",
+            "skills": [
+                "ReactJS",
+                "React Router",
+                "React Redux",
+                "SCSS",
+                "TypeScript",
+                "JavaScript ES6",
+                "REST API",
+                "KeyCloak Auth"
+            ]
+        },
+        {
+            "start": "01/2022",
+            "end": "12/2022",
+            "position": "Frontend Developer, ReactJS",
+            "company": "Virtual Identity",
+            "location": "Freiburg",
+            "description": "Supporting the agency with an open-source project: Developing an online chat platform",
+            "skills": [
+                "ReactJS",
+                "React Router",
+                "SCSS",
+                "TypeScript",
+                "JavaScript ES6",
+                "REST API",
+                "KeyCloak Auth"
+            ],
+            "projectLink": "https://github.com/Onlineberatung/onlineBeratung-frontend"
+        },
+        {
+            "start": "12/2021",
+            "end": "02/2022",
+            "position": "Frontend Developer, ReactJS",
+            "company": "whitebox GmbH",
+            "location": "Freiburg",
+            "description": "Developing some interactive finance calculators for integration on the website",
+            "skills": ["ReactJS", "SCSS", "TypeScript", "JavaScript ES6"]
+        },
+        {
+            "start": "10/2021",
+            "end": "ongoing",
+            "position": "Frontend Developer, VueJS",
+            "company": "brainson GmbH",
+            "location": "Freiburg",
+            "description": "Supporting the agency in one of their VueJS projects: realizing a full webpage as a single-page application",
+            "skills": [
+                "VueJS",
+                "Vuex",
+                "Vue Router",
+                "JavaScript ES6",
+                "REST",
+                "SCSS"
+            ]
+        },
+        {
+            "start": "06/2021",
+            "end": "09/2021",
+            "position": "Frontend Developer, ReactJS",
+            "company": "viable GmbH",
+            "location": "Vienna - Austria",
+            "description": "Development of a web application using React for the financing sector",
+            "skills": ["ReactJS", "TypeScript", "SCSS", "REST"]
+        },
+        {
+            "start": "10/2020",
+            "end": "12/2020",
+            "position": "Frontend Developer, ReactJS",
+            "location": "Freiburg",
+            "company": "checkpad-med",
+            "description": "Development of a landing page as a web application using React while connecting a headless CMS",
+            "skills": ["ReactJS", "SCSS", "REST", "directus CMS", "UX Design"]
+        },
+        {
+            "start": "08/2020",
+            "end": "10/2020",
+            "position": "Frontend Developer, VueJS",
+            "company": "Fundmate GmbH",
+            "location": "Freiburg",
+            "description": "Web application development based on JAM Stack",
+            "skills": ["VueJS", "Stylus CSS", "JavaScript", "REST"]
+        },
+        {
+            "start": "02/2020",
+            "end": "ongoing",
+            "position": "Frontend Developer",
+            "company": "badenova AG & Co. KG",
+            "location": "Freiburg",
+            "description": "Implementation of growth hacking campaigns using A/B testing and optimizing landing pages. Supporting the development of the homepage.",
+            "skills": ["HTML", "CSS", "JavaScript", "UX design"]
+        },
+        {
+            "start": "09/2019",
+            "end": "11/2022",
+            "position": "Frontend Developer, ReactJS",
+            "company": "mdeg digital GmbH",
+            "location": "Freiburg",
+            "description": "Development of an application supporting the communication between an emergency dispatch center and the caller using React and WebRTC.",
+            "skills": [
+                "ReactJS",
+                "React Router",
+                "React Redux",
+                "WebRTC",
+                "SCSS",
+                "JavaScript ES6",
+                "REST API",
+                "Continuous Integration",
+                "Jenkins",
+                "Server Management",
+                "NGINX",
+                "MySQL"
+            ]
+        },
+        {
+            "start": "06/2019",
+            "end": "06/2019",
+            "position": "Frontend Developer, ReactJS",
+            "company": "Virtual Identity",
+            "location": "Freiburg",
+            "description": "Supporting the agency with a React application, bug fixing, and maintenance.",
+            "skills": ["ReactJS", "SCSS"]
+        },
+        {
+            "start": "04/2019",
+            "end": "05/2019",
+            "position": "Frontend Developer, VueJS",
+            "company": "Jung von Matt/Neckar",
+            "location": "Stuttgart",
+            "description": "Supporting the agency in a VueJS/Nuxt project: realizing a campaign landing page as an SPA using a headless CMS.",
+            "skills": [
+                "VueJS",
+                "Nuxt",
+                "JavaScript ES6",
+                "SCSS",
+                "GSAP",
+                "Animations/Transitions",
+                "prismic.io"
+            ]
+        },
+        {
+            "start": "02/2019",
+            "end": "03/2019",
+            "position": "Frontend Developer, VueJS",
+            "company": "brainson GmbH",
+            "location": "Freiburg",
+            "description": "Supporting the agency in one of their VueJS projects: realizing a full webpage as a single-page application.",
+            "skills": [
+                "VueJS",
+                "Vue Router",
+                "JavaScript ES6",
+                "REST",
+                "SCSS",
+                "Prerendering"
+            ]
+        },
+        {
+            "start": "01/2019",
+            "position": "Freelance Frontend Developer",
+            "description": "Setting up some own projects while learning and further developing new skills. Some of the work is found on my GitHub profile.",
+            "skills": [
+                "React",
+                "React Router",
+                "Redux",
+                "VueJS",
+                "Vue Router",
+                "JavaScript ES6",
+                "REST",
+                "SCSS",
+                "Express",
+                "GraphQL",
+                "Sequelize"
+            ]
+        }
+    ],
+    "employment": [
+        {
+            "start": "04/2016",
+            "end": "12/2018",
+            "position": "Frontend Developer, Intermediate",
+            "company": "Virtual Identity AG",
+            "location": "Freiburg",
+            "description": "As part of a team that specialized in component-based responsive frontend frameworks, I worked on websites of bigger companies and supported internal projects.",
+            "skills": [
+                "HTML5",
+                "CSS3",
+                "SCSS",
+                "JavaScript ES6",
+                "jQuery",
+                "Gulp",
+                "JSON",
+                "GIT",
+                "Jira",
+                "Confluence",
+                "bitBucket",
+                "REST",
+                "Ajax",
+                "TypeScript",
+                "React",
+                "Jenkins"
+            ]
+        },
+        {
+            "start": "11/2012",
+            "end": "04/2016",
+            "position": "Web Developer",
+            "company": "Printus GmbH",
+            "location": "Offenburg",
+            "description": "At Printus GmbH, I was part of a cross-functional agile team in charge of developing and maintaining multiple online shops. My focus was developing and implementing software concepts and requirements.",
+            "skills": [
+                "HTML5",
+                "CSS3",
+                "LESS",
+                "JavaScript",
+                "jQuery",
+                "Grunt.js",
+                "REST",
+                "Ajax",
+                "JSP",
+                "PHP",
+                "oxid eShop",
+                "IBM Websphere Commerce",
+                "JIRA",
+                "Mantis",
+                "agile development",
+                "SCRUM",
+                "Kanban",
+                "SVN"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "date": 2012,
+            "title": "Master of Science",
+            "field": "media and communications",
+            "institute": "University of applied sciences",
+            "location": "Offenburg"
+        },
+        {
+            "date": 2010,
+            "title": "Bachelor of Science",
+            "field": "media and information",
+            "institute": "University of applied sciences",
+            "location": "Offenburg"
+        },
+        {
+            "date": 2005,
+            "title": "Abitur"
+        }
+    ],
+    "testimonials": [
+        {
+            "name": "Jona Glaubitz",
+            "company": "mdeg digital GmbH",
+            "statement": [
+                "There is one phrase of Alex Benz's that he claims all to himself and that best describes his reliability:",
+                "'I've already done that!'",
+                "Simply great... Thanks for everything!"
+            ]
+        },
+        {
+            "name": "Jannik Seven",
+            "company": "badenova AG & Co. KG",
+            "statement": ["TBD..."]
+        }
+    ]
+}

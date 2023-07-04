@@ -1,0 +1,34 @@
+{
+    "contact": {
+        "name": "Alexander Benz",
+        "street": "Amalie-Tonoli-Str. 11",
+        "zip": 77652,
+        "location": "Offenburg",
+        "phone": "+49 176 434 959 54",
+        "mail": "web@alex-benz.de",
+        "web": "www.alex-benz.de",
+        "birthdate": "1985"
+    },
+    "links": [
+        {
+            "id": "Mail",
+            "url": "mailto:web@alex-benz.de",
+            "usage": ["intro"]
+        },
+        {
+            "id": "GitHub",
+            "url": "https://github.com/alxbenz",
+            "usage": ["intro"]
+        },
+        {
+            "id": "LinkedIn",
+            "url": "https://www.linkedin.com/in/alxbenz/",
+            "usage": ["intro", "contact"]
+        },
+        {
+            "id": "Xing",
+            "url": "https://www.xing.com/profile/Alexander_Benz4/cv",
+            "usage": ["intro", "contact"]
+        }
+    ]
+}

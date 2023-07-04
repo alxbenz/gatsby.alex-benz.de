@@ -1,0 +1,1 @@
+export const removeTags = (str: string) => str.replace(/(<([^>]+)>)/gi, "");

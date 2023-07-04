@@ -1,7 +1,7 @@
 import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 
-import content from "../resources/content.de.json";
+import content from "../resources/content.en.json";
 import information from "../resources/information.json";
 import { Content, Information } from "../types";
 import { Home } from "../components/Pages/Home";
@@ -20,7 +20,7 @@ export default IndexPage;
 
 export const Head: HeadFC = () => (
     <>
-        <html lang="de" />
+        <html lang="en" />
         <title>
             {`${removeTags(content.intro.h2)} | ${information.contact.web}`}
         </title>

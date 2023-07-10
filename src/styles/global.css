@@ -10,5 +10,15 @@ body {}
 }
 
 .dark {
-  background: rgb(2,6,23);
+  background: rgb(15,23,42);
+}
+
+.light *::selection {
+  background: #fde047;
+  color: black;
+}
+
+.dark *::selection {
+  color: white;
+  background: #4c1d95;
 }

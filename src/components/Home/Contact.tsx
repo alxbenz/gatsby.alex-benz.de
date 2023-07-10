@@ -1,4 +1,4 @@
-import { ContactInfo, Information } from "@/types";
+import { ContactInfo, Information } from "../../types";
 import React from "react";
 
 interface ContactProps {

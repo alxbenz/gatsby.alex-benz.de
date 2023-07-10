@@ -1,7 +1,8 @@
-import { SkillsEntity } from "@/types";
+import { SkillsEntity } from "../../types";
 import React from "react";
 import { Headline } from "../Global/Headline";
 import { Square } from "../Global/Square";
+import { Trans, useTranslation } from "react-i18next";
 
 interface SkillsProps {
     skills: SkillsEntity[];
@@ -12,6 +13,7 @@ export const Skills: React.FC<SkillsProps> = ({
     skills,
     useSquares = true,
 }) => {
+    const { t } = useTranslation();
     const getSquares = (percentage: number) => (
         <>
             <Square filled={percentage >= 0} />
@@ -31,15 +33,20 @@ export const Skills: React.FC<SkillsProps> = ({
                         className="flex justify-between flex-wrap items-center mt-6"
                     >
                         <div className="w-[100%] font-bold mb-1">
-                            {skill.label}
+                            <Trans>{skill.label}</Trans>
                         </div>
                         {!!skill.percentage && (
                             <div className="w-[33%] flex [&>*+*]:ml-1">
                                 {getSquares(skill.percentage)}
                             </div>
                         )}
-                        <div className="w-[33%]">{skill.level}</div>
-                        <div className="w-[34%]">{skill.period}</div>
+                        <div className="w-[33%]">
+                            <Trans>{skill.level}</Trans>
+                        </div>
+                        <div className="w-[34%]">
+                            {skill.period}{" "}
+                            {t("skill.period.year", { count: skill.period })}
+                        </div>
                     </div>
                 ) : null
             )}

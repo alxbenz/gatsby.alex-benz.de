@@ -1,0 +1,470 @@
+{
+    "profile": [
+        "profile.name",
+        "profile.work",
+        "profile.experience",
+        "profile.formal",
+        "profile.location"
+    ],
+    "intro": {
+        "h2": "intro.headline",
+        "p": [
+            "intro.text.1"
+        ]
+    },
+    "sections": [
+        {
+            "id": "skills",
+            "h2": "skills.headline",
+            "sub": "skills.subline",
+            "p": [
+                "skills.text.1",
+                "skills.text.2"
+            ]
+        },
+        {
+            "id": "testimonials",
+            "h2": "testimonials.headline",
+            "sub": "testimonials.subline",
+            "p": [
+                "testimonials.text.1"
+            ]
+        },
+        {
+            "id": "contact",
+            "h2": "contact.headline",
+            "sub": "contact.subline",
+            "p": [
+                "contact.text.1",
+                "contact.text.2"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "category": "skill.category.development",
+            "label": "skill.label.html5",
+            "period": 10,
+            "level": "skill.level.expert",
+            "percentage": 90,
+            "top": true
+        },
+        {
+            "category": "skill.category.development",
+            "label": "skill.label.css",
+            "period": 10,
+            "level": "skill.level.expert",
+            "percentage": 95,
+            "top": true
+        },
+        {
+            "category": "skill.category.development",
+            "label": "skill.label.javascript",
+            "period": 10,
+            "level": "skill.level.expert",
+            "percentage": 90,
+            "top": true
+        },
+        {
+            "category": "skill.category.development",
+            "label": "skill.label.reactjs",
+            "period": 5,
+            "level": "skill.level.experienced",
+            "percentage": 75,
+            "top": true
+        },
+        {
+            "category": "skill.category.development",
+            "label": "skill.label.redux",
+            "period": 3,
+            "level": "skill.level.advanced",
+            "percentage": 50
+        },
+        {
+            "category": "skill.category.development",
+            "label": "skill.label.vuejs",
+            "period": 4,
+            "level": "skill.level.advanced",
+            "percentage": 50,
+            "top": true
+        },
+        {
+            "category": "skill.category.development",
+            "label": "skill.label.typescript",
+            "period": 5,
+            "level": "skill.level.experienced",
+            "percentage": 60,
+            "top": true
+        },
+        {
+            "category": "skill.category.development",
+            "label": "skill.label.node",
+            "period": 2,
+            "level": "skill.level.advanced",
+            "percentage": 40
+        },
+        {
+            "category": "skill.category.development",
+            "label": "skill.label.templating",
+            "period": 3,
+            "level": "skill.level.experienced",
+            "percentage": 70
+        },
+        {
+            "category": "skill.category.development",
+            "label": "skill.label.jquery",
+            "period": 7,
+            "level": "skill.level.expert",
+            "percentage": 80
+        },
+        {
+            "category": "skill.category.development",
+            "label": "skill.label.php",
+            "period": 3,
+            "level": "Lernend",
+            "percentage": 25
+        },
+        {
+            "category": "skill.category.development",
+            "label": "skill.label.mysql",
+            "period": 3,
+            "level": "Lernend",
+            "percentage": 25
+        },
+        {
+            "category": "skill.category.devops",
+            "label": "skill.label.server",
+            "period": 5,
+            "level": "skill.level.advanced",
+            "percentage": 50
+        },
+        {
+            "category": "skill.category.devops",
+            "label": "skill.label.ci",
+            "period": 7,
+            "level": "skill.level.advanced",
+            "percentage": 50
+        },
+        {
+            "category": "skill.category.devops",
+            "label": "skill.label.build",
+            "period": 7,
+            "level": "skill.level.advanced",
+            "percentage": 50
+        },
+        {
+            "category": "skill.category.devops",
+            "label": "skill.label.docker",
+            "period": 2,
+            "level": "Lernend",
+            "percentage": 25
+        },
+        {
+            "category": "skill.category.devops",
+            "label": "skill.label.aws",
+            "period": 1,
+            "level": "Lernend",
+            "percentage": 20
+        },
+        {
+            "category": "skill.category.devops",
+            "label": "skill.label.versioncontrol",
+            "period": 10,
+            "level": "skill.level.expert",
+            "percentage": 80
+        },
+        {
+            "category": "skill.category.tools",
+            "label": "skill.label.imageediting"
+        },
+        {
+            "category": "skill.category.tools",
+            "label": "skill.label.webdesing"
+        },
+        {
+            "category": "skill.category.tools",
+            "label": "skill.label.vscode"
+        },
+        {
+            "category": "skill.category.tools",
+            "label": "skill.label.projectmanagement"
+        },
+        {
+            "category": "skill.category.languages",
+            "label": "skill.label.german"
+        },
+        {
+            "category": "skill.category.languages",
+            "label": "skill.label.english"
+        }
+    ],
+    "projects": [
+        {
+            "start": "11/2022",
+            "end": "ongoing",
+            "position": "project.position.react",
+            "company": "mdeg digital GmbH",
+            "location": "project.location.freiburg",
+            "description": "project.description.mdeg.prepsia",
+            "skills": [
+                "ReactJS",
+                "React Router",
+                "React Redux",
+                "SCSS",
+                "TypeScript",
+                "JavaScript ES6",
+                "REST API",
+                "KeyCloak Auth"
+            ]
+        },
+        {
+            "start": "01/2022",
+            "end": "12/2022",
+            "position": "project.position.react",
+            "company": "Virtual Identity",
+            "location": "project.location.freiburg",
+            "description": "project.description.vi.obi",
+            "skills": [
+                "ReactJS",
+                "React Router",
+                "SCSS",
+                "TypeScript",
+                "JavaScript ES6",
+                "REST API",
+                "KeyCloak Auth"
+            ],
+            "projectLink": "https://github.com/Onlineberatung/onlineBeratung-frontend"
+        },
+        {
+            "start": "12/2021",
+            "end": "02/2022",
+            "position": "project.position.react",
+            "company": "whitebox GmbH",
+            "location": "project.location.freiburg",
+            "description": "project.description.whitebox.calculator",
+            "skills": ["ReactJS", "SCSS", "TypeScript", "JavaScript ES6"]
+        },
+        {
+            "start": "10/2021",
+            "end": "ongoing",
+            "position": "project.position.vue",
+            "company": "brainson GmbH",
+            "location": "project.location.freiburg",
+            "description": "project.description.brainson.ongoing",
+            "skills": [
+                "VueJS",
+                "Vuex",
+                "Vue Router",
+                "JavaScript ES6",
+                "REST",
+                "SCSS"
+            ]
+        },
+        {
+            "start": "06/2021",
+            "end": "09/2021",
+            "position": "project.position.react",
+            "company": "viable GmbH",
+            "location": "project.location.vienna",
+            "description": "project.description.viable.finance",
+            "skills": ["ReactJS", "TypeScript", "SCSS", "REST"]
+        },
+        {
+            "start": "10/2020",
+            "end": "12/2020",
+            "position": "project.position.react",
+            "location": "project.location.freiburg",
+            "company": "checkpad-med",
+            "description": "project.description.checkpad.lp",
+            "skills": ["ReactJS", "SCSS", "REST", "directus CMS", "UX Design"]
+        },
+        {
+            "start": "08/2020",
+            "end": "10/2020",
+            "position": "project.position.vue",
+            "company": "Fundmate GmbH",
+            "location": "project.location.freiburg",
+            "description": "project.description.fundmate.app",
+            "skills": ["VueJS", "Stylus CSS", "JavaScript", "REST"]
+        },
+        {
+            "start": "02/2020",
+            "end": "ongoing",
+            "position": "Frontend Developer",
+            "company": "badenova AG & Co. KG",
+            "location": "project.location.freiburg",
+            "description": "project.description.badenova.ongoing",
+            "skills": ["HTML", "CSS", "JavaScript", "UX design"]
+        },
+        {
+            "start": "09/2019",
+            "end": "11/2022",
+            "position": "project.position.react",
+            "company": "mdeg digital GmbH",
+            "location": "project.location.freiburg",
+            "description": "project.description.mdeg.emeyex",
+            "skills": [
+                "ReactJS",
+                "React Router",
+                "React Redux",
+                "WebRTC",
+                "SCSS",
+                "JavaScript ES6",
+                "REST API",
+                "Continuous Integration",
+                "Jenkins",
+                "Server Management",
+                "NGINX",
+                "MySQL"
+            ]
+        },
+        {
+            "start": "06/2019",
+            "end": "06/2019",
+            "position": "project.position.react",
+            "company": "Virtual Identity",
+            "location": "project.location.freiburg",
+            "description": "project.description.vi.ui",
+            "skills": ["ReactJS", "SCSS"]
+        },
+        {
+            "start": "04/2019",
+            "end": "05/2019",
+            "position": "project.position.vue",
+            "company": "Jung von Matt/Neckar",
+            "location": "project.location.stuttgart",
+            "description": "project.description.jvm.vue",
+            "skills": [
+                "VueJS",
+                "Nuxt",
+                "JavaScript ES6",
+                "SCSS",
+                "GSAP",
+                "Animations/Transitions",
+                "prismic.io"
+            ]
+        },
+        {
+            "start": "02/2019",
+            "end": "03/2019",
+            "position": "project.position.vue",
+            "company": "brainson GmbH",
+            "location": "project.location.freiburg",
+            "description": "project.description.brainson.sixbid",
+            "skills": [
+                "VueJS",
+                "Vue Router",
+                "JavaScript ES6",
+                "REST",
+                "SCSS",
+                "Prerendering"
+            ]
+        },
+        {
+            "start": "01/2019",
+            "position": "project.position.freelance",
+            "description": "project.description.freelance",
+            "skills": [
+                "React",
+                "React Router",
+                "Redux",
+                "VueJS",
+                "Vue Router",
+                "JavaScript ES6",
+                "REST",
+                "SCSS",
+                "Express",
+                "GraphQL",
+                "Sequelize"
+            ]
+        }
+    ],
+    "employment": [
+        {
+            "start": "04/2016",
+            "end": "12/2018",
+            "position": "employment.position.frontend",
+            "company": "Virtual Identity AG",
+            "location": "employment.location.freiburg",
+            "description": "employment.description.vi",
+            "skills": [
+                "HTML5",
+                "CSS3",
+                "SCSS",
+                "JavaScript ES6",
+                "jQuery",
+                "Gulp",
+                "JSON",
+                "GIT",
+                "Jira",
+                "Confluence",
+                "bitBucket",
+                "REST",
+                "Ajax",
+                "TypeScript",
+                "React",
+                "Jenkins"
+            ]
+        },
+        {
+            "start": "11/2012",
+            "end": "04/2016",
+            "position": "employment.position.web",
+            "company": "Printus GmbH",
+            "location": "employment.location.offenburg",
+            "description": "employment.description.printus",
+            "skills": [
+                "HTML5",
+                "CSS3",
+                "LESS",
+                "JavaScript",
+                "jQuery",
+                "Grunt.js",
+                "REST",
+                "Ajax",
+                "JSP",
+                "PHP",
+                "oxid eShop",
+                "IBM Websphere Commerce",
+                "JIRA",
+                "Mantis",
+                "agile development",
+                "SCRUM",
+                "Kanban",
+                "SVN"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "date": 2012,
+            "title": "education.title.master",
+            "field": "education.field.muk",
+            "institute": "University of applied sciences",
+            "location": "education.location.offenburg"
+        },
+        {
+            "date": 2010,
+            "title": "education.title.bachelor",
+            "field": "education.field.mi",
+            "institute": "University of applied sciences",
+            "location": "education.location.offenburg"
+        },
+        {
+            "date": 2005,
+            "title": "education.title.abitur"
+        }
+    ],
+    "testimonials": [
+        {
+            "name": "Jona Glaubitz",
+            "company": "mdeg digital GmbH",
+            "statement": [
+                "testimonials.jona.statement.1",
+                "testimonials.jona.statement.2",
+                "testimonials.jona.statement.3"
+            ]
+        }
+    ]
+}
+

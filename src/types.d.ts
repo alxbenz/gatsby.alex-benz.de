@@ -54,7 +54,7 @@ export interface SocialMedia {
 export interface SkillsEntity {
     category: string;
     label: string;
-    period?: string;
+    period?: number;
     level?: string;
     percentage?: number;
     top?: boolean;

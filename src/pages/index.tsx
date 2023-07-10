@@ -1,18 +1,22 @@
 import * as React from "react";
-import type { HeadFC, PageProps } from "gatsby";
+import { graphql, type HeadFC, type PageProps } from "gatsby";
 
-import content from "../resources/content.de.json";
-import information from "../resources/information.json";
+import content from "../content/content.json";
+import information from "../content/information.json";
 import { Content, Information } from "../types";
 import { Home } from "../components/Pages/Home";
 import { removeTags } from "../helper/removeTags";
+import { Navigation } from "../components/Global/Navigation";
 
 const IndexPage: React.FC<PageProps> = () => {
     return (
-        <Home
-            content={content as Content}
-            information={information as Information}
-        />
+        <>
+            <Navigation />
+            <Home
+                content={content as Content}
+                information={information as Information}
+            />
+        </>
     );
 };
 
@@ -27,3 +31,17 @@ export const Head: HeadFC = () => (
         <meta name="description" content={content.intro.p[0]} />
     </>
 );
+
+export const query = graphql`
+    query ($language: String!) {
+        locales: allLocale(filter: { language: { eq: $language } }) {
+            edges {
+                node {
+                    ns
+                    data
+                    language
+                }
+            }
+        }
+    }
+`;

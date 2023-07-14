@@ -3,6 +3,20 @@ export interface Information {
     links: Link[];
 }
 
+export interface Meta {
+    home: MetaLanguage;
+    imprint: MetaLanguage;
+}
+
+export interface MetaLanguage {
+    [key: string]: MetaInfo;
+}
+
+export interface MetaInfo {
+    title: string;
+    description?: string;
+}
+
 export interface Content {
     profile: string[];
     intro: Intro;

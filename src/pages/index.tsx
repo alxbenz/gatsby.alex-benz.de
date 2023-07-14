@@ -3,10 +3,11 @@ import { graphql, type HeadFC, type PageProps } from "gatsby";
 
 import content from "../content/content.json";
 import information from "../content/information.json";
-import { Content, Information } from "../types";
+import { Content, Information, Meta } from "../types";
 import { Home } from "../components/Pages/Home";
-import { removeTags } from "../helper/removeTags";
 import { Navigation } from "../components/Global/Navigation";
+import { PageContext } from "gatsby-plugin-react-i18next/dist/types";
+import metaJson from "../content/meta.json";
 
 const IndexPage: React.FC<PageProps> = () => {
     return (
@@ -22,15 +23,23 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage;
 
-export const Head: HeadFC = () => (
-    <>
-        <html lang="de" />
-        <title>
-            {`${removeTags(content.intro.h2)} | ${information.contact.web}`}
-        </title>
-        <meta name="description" content={content.intro.p[0]} />
-    </>
-);
+export const Head: HeadFC = (props) => {
+    const context = props.pageContext as PageContext;
+    const meta = metaJson as Meta;
+
+    const title = meta.home[context.language].title;
+    const description = meta.home[context.language].description;
+
+    return (
+        <>
+            <html lang={context.language} />
+            <title>
+                {title} - gatsby.alex-benz.de - {context.language.toUpperCase()}
+            </title>
+            <meta name="description" content={description} />
+        </>
+    );
+};
 
 export const query = graphql`
     query ($language: String!) {

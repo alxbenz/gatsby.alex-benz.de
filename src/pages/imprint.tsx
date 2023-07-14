@@ -4,8 +4,10 @@ import { Navigation } from "../components/Global/Navigation";
 import { ContentSplit } from "../components/Global/ContentSplit";
 import { Section } from "../components/Global/Section";
 
-import { Trans, useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import { PageContext } from "gatsby-plugin-react-i18next/dist/types";
+import { Meta } from "../types";
+import metaJson from "../content/meta.json";
 
 const ImprintPage: React.FC<PageProps> = () => {
     const { t } = useTranslation();
@@ -49,7 +51,9 @@ export default ImprintPage;
 
 export const Head: HeadFC = (props) => {
     const context = props.pageContext as PageContext;
-    const title = context.language === "en" ? "Imprint" : "Impressum";
+    const meta = metaJson as Meta;
+
+    const title = meta.home[context.language].title;
 
     return (
         <title>
@@ -62,7 +66,7 @@ export const query = graphql`
     query ($language: String!) {
         locales: allLocale(
             filter: {
-                ns: { in: ["imprint", "privacy"] }
+                ns: { in: ["imprint", "privacy", "common"] }
                 language: { eq: $language }
             }
         ) {

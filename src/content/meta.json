@@ -1,0 +1,20 @@
+{
+    "home": {
+        "de": {
+            "title": "Hi, ich bin Alex Benz - Kreative Frontend-Entwicklung - Gestaltung ansprechender Benutzeroberflächen",
+            "description": "Leidenschaftlicher Frontend-Entwickler für ansprechende Benutzeroberflächen. Freelancer für Agenturen, Unternehmen und Privatpersonen. Gemeinsam Großartiges erschaffen. Kontaktieren Sie mich!"
+        },
+        "en": {
+            "title": "Hi, I am Alex Benz - Creative Frontend Development - Crafting Engaging User Interfaces",
+            "description": "Passionate Frontend Developer for Engaging User Interfaces. Freelancer for Agencies, Companies, and Individuals. Creating Great Things Together. Contact Me!"
+        }
+    },
+    "imprint": {
+        "de": {
+            "title": "Impressum"
+        },
+        "en": {
+            "title": "Imprint"
+        }
+    }
+}

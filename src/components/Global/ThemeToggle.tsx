@@ -1,5 +1,9 @@
 import useTheme from "../../hooks/useTheme";
 import React from "react";
+import { ModalMenu } from "./ModalMenu";
+import { Toggle } from "./Toggle";
+import { LightMode } from "../Icons/LightMode";
+import { DarkMode } from "../Icons/DarkMode";
 
 interface ThemeToggleProps {}
 
@@ -7,19 +11,22 @@ export const ThemeToggle: React.FC<ThemeToggleProps> = () => {
     const [theme, setTheme] = useTheme();
 
     return (
-        <div className="dark:text-slate-300 mr-4">
-            theme: {theme}
-            <div className="absolute flex flex-col items-start">
-                <button className="mt-2" onClick={() => setTheme("light")}>
-                    light
+        <>
+            {theme === "light" ? (
+                <button
+                    className="bg-white rounded p-2"
+                    onClick={() => setTheme("dark")}
+                >
+                    <LightMode className="w-4 h-4 fill-purple-600" />
                 </button>
-                <button className="mt-2" onClick={() => setTheme("dark")}>
-                    dark
+            ) : (
+                <button
+                    className="dark:bg-slate-900 rounded p-2"
+                    onClick={() => setTheme("light")}
+                >
+                    <DarkMode className="w-4 h-4 dark:fill-yellow-300 transition-all" />
                 </button>
-                <button className="mt-2" onClick={() => setTheme("system")}>
-                    system
-                </button>
-            </div>
-        </div>
+            )}
+        </>
     );
 };

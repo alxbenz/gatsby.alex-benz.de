@@ -34,12 +34,12 @@ export const Intro: React.FC<IntroProps> = ({ intro, information }) => {
             <Headline content={t(intro.h2)} type="orange" className="mt-16" />
             <h3 className="mt-8 font-light ">{t(intro.p)}</h3>
 
-            <div className="mt-8 flex flex-wrap justify-center items-center [&>a+a]:ml-6">
+            <div className="mt-8 flex flex-wrap justify-center items-center">
                 {information.links.map((link) => (
                     <a
                         href={link.url}
                         key={link.id}
-                        className="flex items-center underline hover:no-underline"
+                        className="flex items-center underline hover:no-underline mx-2"
                     >
                         {getIcon(link.id)}
                         {link.id}

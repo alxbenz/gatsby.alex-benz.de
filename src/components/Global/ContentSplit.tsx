@@ -21,7 +21,7 @@ export const ContentSplit: React.FC<ContentSplitProps> = ({
                     <Background />
                     <GradientBall />
                 </div>
-                <aside className="px-6 max-w-lg lg:max-w-sm w-full relative lg:mr-24 pt-20 pb-6 min-h-[16rem] max-h-screen overflow-auto">
+                <aside className="px-6 max-w-lg lg:max-w-sm w-full relative lg:mr-24 pt-20 pb-6 min-h-[16rem] md:max-h-screen overflow-auto">
                     <div className="flex justify-start items-center">
                         <div className="h-16 w-16">
                             <Logo />

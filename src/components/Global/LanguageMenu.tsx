@@ -24,7 +24,7 @@ export const LanguageMenu: React.FC<LanguageMenuProps> = () => {
             ariaLabel={t("toggle.language") as string}
         >
             {languages.map((lng) => (
-                <div className="whitespace-nowrap">
+                <div className="whitespace-nowrap" key={lng}>
                     {lng !== i18n.language ? (
                         <Link
                             to={originalPath}

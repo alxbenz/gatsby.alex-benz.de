@@ -21,7 +21,7 @@ export const LanguageMenu: React.FC<LanguageMenuProps> = () => {
                     <Globe className="w-4 h-4 fill-purple-600 dark:fill-yellow-300 " />
                 </div>
             }
-            aria-label={t("toggle.language") as string}
+            ariaLabel={t("toggle.language") as string}
         >
             {languages.map((lng) => (
                 <div className="whitespace-nowrap">

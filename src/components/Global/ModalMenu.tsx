@@ -4,11 +4,13 @@ import { useOutsideAlerter } from "../../hooks/useOutsideClick";
 interface ModalMenuProps {
     children: React.ReactNode;
     label?: React.ReactNode;
+    ariaLabel: string;
 }
 
 export const ModalMenu: React.FC<ModalMenuProps> = ({
     children,
     label = <></>,
+    ariaLabel,
 }) => {
     const wrapperRef = useRef<HTMLDivElement>(null);
 
@@ -25,6 +27,7 @@ export const ModalMenu: React.FC<ModalMenuProps> = ({
                     onClick={() => {
                         setShow(!show);
                     }}
+                    aria-label={ariaLabel}
                 >
                     {label}
                 </button>

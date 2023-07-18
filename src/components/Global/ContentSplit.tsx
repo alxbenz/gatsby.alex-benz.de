@@ -1,8 +1,11 @@
 import React from "react";
-import { Background } from "./Background";
 import { GradientBall } from "./GradientBall";
 import { Contributions } from "./Contributions";
 import { Logo } from "./Logo";
+
+import loadable from "@loadable/component";
+
+const Background = loadable(() => import("./Background"));
 
 interface ContentSplitProps {
     left?: React.ReactNode;

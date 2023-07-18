@@ -2,6 +2,9 @@
     "de": "Deutsch",
     "en": "English",
     "imprint": "Impressum",
-    "home": "Startseite"
+    "home": "Startseite",
+    "toggle.language": "Sprache wechseln",
+    "toggle.darkMode": "Dunkler Modus anschalten",
+    "toggle.lightkMode": "Heller Modus anschalten"
 }
 

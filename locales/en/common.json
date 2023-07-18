@@ -2,5 +2,8 @@
     "de": "Deutsch",
     "en": "English",
     "imprint": "Imprint",
-    "home": "Home"
+    "home": "Home",
+    "toggle.language": "toggle language",
+    "toggle.darkMode": "turn on dark mode",
+    "toggle.lightkMode": "turn on light mode"
 }

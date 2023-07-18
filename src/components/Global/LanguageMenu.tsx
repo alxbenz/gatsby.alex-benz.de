@@ -1,4 +1,9 @@
-import { Trans, useI18next, Link } from "gatsby-plugin-react-i18next";
+import {
+    Trans,
+    useI18next,
+    Link,
+    useTranslation,
+} from "gatsby-plugin-react-i18next";
 import React from "react";
 import { ModalMenu } from "./ModalMenu";
 import { Globe } from "../Icons/Globe";
@@ -7,6 +12,7 @@ interface LanguageMenuProps {}
 
 export const LanguageMenu: React.FC<LanguageMenuProps> = () => {
     const { languages, originalPath, i18n } = useI18next();
+    const { t } = useTranslation();
 
     return (
         <ModalMenu
@@ -15,6 +21,7 @@ export const LanguageMenu: React.FC<LanguageMenuProps> = () => {
                     <Globe className="w-4 h-4 fill-purple-600 dark:fill-yellow-300 " />
                 </div>
             }
+            aria-label={t("toggle.language") as string}
         >
             {languages.map((lng) => (
                 <div className="whitespace-nowrap">

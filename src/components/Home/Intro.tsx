@@ -47,7 +47,7 @@ export const Intro: React.FC<IntroProps> = ({ intro, information }) => {
                 ))}
             </div>
             <div className="mt-16 text-center text-xs opacity-50">
-                powered by next.js, tailwindcss, typescript
+                powered by gatsby, tailwindcss, typescript
             </div>
         </>
     );

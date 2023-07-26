@@ -4,6 +4,7 @@ import { Contributions } from "./Contributions";
 import { Logo } from "./Logo";
 
 import loadable from "@loadable/component";
+import { FrameworkSelection } from "./FrameworkSelection";
 
 const Background = loadable(() => import("./Background"));
 
@@ -18,6 +19,7 @@ export const ContentSplit: React.FC<ContentSplitProps> = ({
 }) => {
     return (
         <>
+            <FrameworkSelection />
             <div className="relative text-white md:w-1/2 md:fixed md:h-screen flex items-center justify-center md:justify-end overflow-hidden">
                 <div className="background bg-gradient-to-br from-stone-800 to-slate-900 absolute w-full h-full -z-20" />
                 <div className="absolute h-full w-full">
